@@ -9,8 +9,8 @@
     "permissions": [
         "storage",
         "activeTab",
-        "scripting",
-        "clipboardWrite"
+        "scripting"
+        
     ],
     "options_page": "options.html",
     "action": {
