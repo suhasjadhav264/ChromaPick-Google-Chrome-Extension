@@ -1,58 +1,64 @@
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    color: #333;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
-.wrapper {
-    width: 300px;
-    text-align: center;
-    margin: 10px;
-    line-height: 1.5;
 
+.wrapper {
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  line-height: 1.5;
 }
+
 h2 {
-    font-size: 24px;
-    margin: 10px;
+  font-size: 24px;
+  margin: 10px;
 }
+
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
 }
+
 .changeColorBtn {
-    margin: 10px;
-    padding: 12px 24px;
-    background-color: #ff7200;
-    color: #fff;
-    border: none;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #ff7200;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-.changeColorBtn:hover{
-    background-color: #ff9500;
+
+.changeColorBtn:hover {
+  background-color: #ff9500;
 }
+
 .colorGrid {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 2px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
 }
+
 .selectedColor {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .colorValue {
-    margin-left: 5px;
-    font-weight: bold;
+  margin-left: 5px;
+  font-weight: bold;
 }
