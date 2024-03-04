@@ -24,38 +24,3 @@ ChromaPick offers the following features:
 * Copy the selected color to your clipboard
 * Save the selected color for later use
 * Customize the extension's appearance and behavior
-
-## Code Snippets
-
-### background.js
-```javascript
-let color = "red";
-
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ color });
-});
-```
-This code sets the default color to red when the extension is installed.
-
-### manifest.json
-```json
-{
-    "name": "ChromaPick",
-    "description": "A ChromaPick is a tool that lets you pick and copy colors from a web page, image, or design quickly and easily. It's popular among designers and developers.",
-    "version": "1.0",
-    "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": [
-        "storage",
-        "activeTab",
-        "scripting"
-        
-    ],
-    "options_page": "options.html",
-    "action": {
-        "default_popup": "popup.html"
-    },
-    "icons": {
-
