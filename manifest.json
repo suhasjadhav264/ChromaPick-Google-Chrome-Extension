@@ -1,6 +1,6 @@
 {
-    "name": "Color picker",
-    "description": "The best color picker in the market.",
+    "name": "ChromaPick",
+    "description": "Effortlessly capture colors from any webpage or window with this sleek color picker extension. Simply click, select, and copy color codes instantly for your design projects.",
     "version": "0.0.1",
     "manifest_version": 3,
     "action": {
