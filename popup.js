@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", () => {
     } else {
       const button = document.createElement("button");
       button.setAttribute("id", "picker_btn");
-      button.innerText = "Pick Color from webpage";
+      button.innerText = "Pick Color from anywhere";
 
       button.addEventListener("click", () => {
         if (!window.EyeDropper) {

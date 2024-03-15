@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  font-family: "Lobster", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   margin: 0;
   margin-bottom: 20px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 #picker_btn {
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 8px;
   background-color: #007bff;
   color: #fff;
