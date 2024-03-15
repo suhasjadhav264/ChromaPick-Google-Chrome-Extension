@@ -1,22 +1,28 @@
 {
-    "name": "ChromaPick",
-    "description": "A ChromaPick is a tool that lets you pick and copy colors from a web page, image, or design quickly and easily. It's popular among designers and developers.",
-    "version": "1.0",
+    "name": "Color picker",
+    "description": "The best color picker in the market.",
+    "version": "0.0.1",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": [
-        "storage",
-        "activeTab",
-        "scripting",
-        "clipboardWrite"
-        
-    ],
-    "options_page": "options.html",
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "./Popup.html"
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "./contentScript.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
     "icons": {
         "16": "/images/Icon16.png",
         "32": "/images/Icon32.png",
