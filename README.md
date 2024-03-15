@@ -22,5 +22,5 @@ ChromaPick offers the following features:
 
 * Easily pick colors from web pages, images, or designs
 * Copy the selected color to your clipboard
-* Save the selected color for later use
+* The ability to access and reuse the copied color code on the popup window makes it convenient for users to utilize the color code multiple times without the need to search for it again. 
 * Customize the extension's appearance and behavior
