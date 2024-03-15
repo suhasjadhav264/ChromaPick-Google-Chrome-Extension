@@ -15,12 +15,13 @@ Once installed, ChromaPick can be accessed by clicking on the extension icon in 
 
 To pick a color, simply click on the "Pick color" button. This will activate the color picker tool. You can then use the color picker to select a color from anywhere on your screen.
 
-Once you have selected a color, it will be displayed in the selected color section of the popup window. You can then copy the color to your clipboard by clicking on the "Copy color" button.
+Once you have selected a color, it will be displayed in the selected color section of the popup window. You can then copy the color to your clipboard by clicking on the "Hex code color" button.
 
 ## Features
 ChromaPick offers the following features:
 
 * Easily pick colors from web pages, images, or designs
 * Copy the selected color to your clipboard
-* Save the selected color for later use
+* The ability to access and reuse the copied color code on the popup window makes it convenient for users to utilize the color code multiple times without the need to search for it again.
+* Additionally, if you want to clear the memory, you can do so by clicking on the "Clear Memory" button on the popup window. 
 * Customize the extension's appearance and behavior
