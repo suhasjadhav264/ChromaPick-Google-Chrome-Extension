@@ -25,3 +25,8 @@ ChromaPick offers the following features:
 * The ability to access and reuse the copied color code on the popup window makes it convenient for users to utilize the color code multiple times without the need to search for it again.
 * Additionally, if you want to clear the memory, you can do so by clicking on the "Clear Memory" button on the popup window. 
 * Customize the extension's appearance and behavior
+
+## Screeshots
+![chromo](https://github.com/suhasjadhav264/Sales-Dashboard-/assets/97833559/0bfa6580-49a2-46d2-bbc6-ff42554d5104)
+![chroma2](https://github.com/suhasjadhav264/Sales-Dashboard-/assets/97833559/82176ea7-6581-4a84-bea8-67c52ae0c850)
+![Screenshot (900)](https://github.com/suhasjadhav264/Sales-Dashboard-/assets/97833559/e378d798-0b32-412a-8f20-aff170a29b4b)
